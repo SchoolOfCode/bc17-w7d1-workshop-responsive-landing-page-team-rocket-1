@@ -1,0 +1,26 @@
+/* 
+// FONT TEMPLATE
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.aleo-<uniquifier> {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+} */
+
+body {
+  font-family: "Aleo", serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
