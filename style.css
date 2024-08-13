@@ -58,7 +58,7 @@ h1 {
 
 .how-it-works {
   display: grid;
-  grid-template-rows: 3rem 1fr 1fr 1fr;
+  grid-template-rows: max-content 1fr 1fr 1fr;
   justify-items: center;
 }
 
@@ -66,3 +66,20 @@ h1 {
 .card p {
   text-align: center;
 }
+
+.card h4{
+  /* border: red 1px solid; */
+  font-size: 1.9rem;
+  margin-bottom: 0;
+}
+.give-us-a-call p{
+  margin-top:0.9rem;
+  /* border: red 1px solid; */
+  font-weight: bolder;
+}
+
+.how-it-works h3 {
+  height: 100%;
+  font-size: 3rem;
+}
+
