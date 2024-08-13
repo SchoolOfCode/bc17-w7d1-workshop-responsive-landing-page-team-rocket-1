@@ -83,3 +83,35 @@ h1 {
   font-size: 3rem;
 }
 
+.footer {
+  padding: 10px;
+  height: 250px;
+  background-color: #f0f1f1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+.footer-colunm {
+  display: flex;
+  flex-direction: column;
+}
+.footer-nav {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+.socials-link {
+  text-decoration: none;
+  color: #000;
+}
+.email-link {
+  color: #000;
+}
+.colunms-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.separator {
+  width: 80%;
+}
