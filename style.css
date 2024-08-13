@@ -11,7 +11,7 @@
 
 } */
 
-html{
+html {
   font-size: 10px;
 }
 
@@ -29,22 +29,20 @@ h1 {
   /* border: red 1px solid; */
 }
 
-.hero-image{
+.hero-image {
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
-.orange-box{
+.orange-box {
   background-color: orange;
-  padding:0.5rem;
-
+  padding: 0.5rem;
 }
 
-.orange-box h2{
-  margin:0;
+.orange-box h2 {
+  margin: 0;
   font-size: 3rem;
   /* border: red 1px solid; */
-
 }
 
 .orange-box p {
@@ -56,4 +54,15 @@ h1 {
 
 .telephone-highlight {
   color: white;
+}
+
+.how-it-works {
+  display: grid;
+  grid-template-rows: 3rem 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.card h4,
+.card p {
+  text-align: center;
 }
